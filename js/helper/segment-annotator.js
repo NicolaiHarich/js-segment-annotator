@@ -378,6 +378,10 @@ function (Layer, segmentation, morph) {
 			}
 			annotator._emptyPolygonPoints();
 		}
+		if (key == 39){
+			buttons = document.getElementsByClassName('edit-top-menu-block')[0].getElementsByTagName("a");
+			buttons[buttons.length-1].click();   //get last element
+		}
 	}
   };
 
